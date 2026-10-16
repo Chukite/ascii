@@ -1,0 +1,8 @@
+:root{color-scheme:dark;background:#030915}
+*{box-sizing:border-box}
+html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#030915}
+#observatory{width:100%;height:100%;height:100dvh}
+#universe{display:block;width:100%;height:100%;outline:none;touch-action:none;cursor:zoom-in}
+#universe.zoomed{cursor:grab}
+#universe.dragging{cursor:grabbing}
+#universe:focus-visible{outline:1px solid #ffbd6560;outline-offset:-1px}

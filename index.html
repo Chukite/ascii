@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10171b">
+  <meta name="description" content="Two interactive worlds drawn with ASCII: an annular eclipse over the sea and a black hole in deep space.">
+  <meta property="og:title" content="ASCII Field Notes — Chukite">
+  <meta property="og:description" content="Interactive cosmic scenes made from characters. Explore, download, and reuse.">
+  <meta property="og:type" content="website">
+  <title>ASCII Field Notes — Chukite</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310171b'/%3E%3Cellipse cx='32' cy='32' rx='26' ry='9' fill='none' stroke='%23d8a263' stroke-width='2'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%2310171b' stroke='%23e9e4d8' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#collection">Skip to the artwork</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#top" aria-label="ASCII Field Notes home">
+      <span class="wordmark-symbol" aria-hidden="true">[::]</span>
+      <span>CHUKITE <span class="wordmark-divider">/</span> ASCII FIELD NOTES</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#collection">Collection <span class="nav-count">02</span></a>
+      <a href="https://github.com/Chukite/ascii-art-showcase" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A SMALL OBSERVATORY OF ASCII ART</p>
+        <h1 id="hero-title">Worlds made<br>from <em>characters.</em></h1>
+        <p class="hero-description">Two moving scenes built from marks, light, and a little code. Take a closer look, download a project, and make it your own.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#collection">Explore the collection <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="downloads/ascii-field-notes.zip" download>Download both <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="ASCII sketch of a ring-shaped eclipse above the horizon">
+        <div class="hero-art-meta"><span>FIELD STUDY</span><span>001 / 002</span></div>
+        <pre aria-hidden="true">
+          .  '  .          .
+       .      .-""-.      .
+     .      .'      '.       .
+          .'  .::::.  '.
+     .   /  .::::::::.  \   .
+        |  ::::::::::::  |
+     .   \  '::::::::'  /   .
+          '.  '::::'  .'
+     .      '-.__.-'       .
+       ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+     ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+        </pre>
+        <div class="hero-art-caption"><span>ANNULAR FORM</span><span>ASCII / WEBGL</span></div>
+      </div>
+    </section>
+
+    <section class="collection wrap" id="collection" aria-labelledby="collection-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE COLLECTION <span class="eyebrow-rule" aria-hidden="true"></span> 02 WORKS</p>
+          <h2 id="collection-title">Choose a world.</h2>
+        </div>
+        <p class="section-note">Each scene responds to your cursor.<br>Scroll or pinch to change your view.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-frame">
+            <div class="frame-heading"><span>01 <i>/</i> SUN &amp; SEA</span><span class="frame-live"><b aria-hidden="true"></b> LIVE STUDY</span></div>
+            <iframe src="annulus-cinematic/dist/index.html" title="Interactive ASCII annular eclipse over an ocean" loading="lazy" allowfullscreen></iframe>
+            <div class="frame-footer"><span>MOVE THROUGH THE LIGHT</span><span>DRAG · SCROLL · S</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><h3>Annulus</h3><span class="project-type">ECLIPSE / OCEAN</span></div>
+            <p>A ring of sunlight above a shimmering sea. Zoom closer and the glow resolves into words about eclipses.</p>
+            <div class="project-actions">
+              <a class="button button-small button-outline" href="annulus-cinematic/dist/index.html" target="_blank" rel="noreferrer">Open full scene <span aria-hidden="true">↗</span></a>
+              <a class="download-link" href="downloads/annulus-cinematic.zip" download>Download project <span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="keyboard-note">SPACE pause <span>·</span> R reset <span>·</span> S save PNG</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-frame project-frame-deep">
+            <div class="frame-heading"><span>02 <i>/</i> DEEP SPACE</span><span class="frame-live"><b aria-hidden="true"></b> LIVE STUDY</span></div>
+            <iframe src="singularity-zoom-text/dist/index.html" title="Interactive ASCII black hole with gravitational lensing" loading="lazy" allowfullscreen></iframe>
+            <div class="frame-footer"><span>ORBIT THE SINGULARITY</span><span>DRAG · SCROLL · S</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><h3>Singularity</h3><span class="project-type">BLACK HOLE / LENSING</span></div>
+            <p>A luminous accretion disk bends around a black hole. Explore the lensing, then zoom in to read the science.</p>
+            <div class="project-actions">
+              <a class="button button-small button-outline" href="singularity-zoom-text/dist/index.html" target="_blank" rel="noreferrer">Open full scene <span aria-hidden="true">↗</span></a>
+              <a class="download-link" href="downloads/singularity-zoom-text.zip" download>Download project <span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="keyboard-note">SPACE pause <span>·</span> R reset <span>·</span> S save PNG</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p><span class="footer-mark" aria-hidden="true">[::]</span> Drawn with characters. Shared under the MIT License.</p>
+      <a href="https://github.com/Chukite/ascii-art-showcase" target="_blank" rel="noreferrer">Source &amp; license on GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+</body>
+</html>
