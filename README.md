@@ -1,10 +1,9 @@
 # ASCII Field Notes
 
-A small public gallery of two interactive ASCII scenes by [Chukite](https://github.com/Chukite): **Annulus** and **Singularity**.
-
+A small public gallery of two interactive ASCII scenes by [Chukite](https://github.com/Chukite)
 ## Explore and download
 
-- [Open the live gallery](https://ascii-art-showcase.vercel.app)
+- [Open the live gallery](https://ascii.chukite.me)
 - [Download both projects](downloads/ascii-field-notes.zip)
 - [Annulus project](downloads/annulus-cinematic.zip)
 - [Singularity project](downloads/singularity-zoom-text.zip)
