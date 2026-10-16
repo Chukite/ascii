@@ -3,7 +3,7 @@ Interactive ASCII artworks
 
 [Open the gallery](https://ascii.chukite.me) · [Download both projects](https://ascii.chukite.me/downloads/ascii-field-notes.zip)
 
-##Examples
+Examples below
 
 ## Annulus
 
