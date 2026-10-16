@@ -1,7 +1,7 @@
 # ASCII Art
 Interactive ASCII artworks
 
-[Open the gallery](https://ascii.chukite.me) · [Download both projects](https://ascii.chukite.me/downloads/ascii-field-notes.zip)
+[Open the gallery](https://ascii.chukite.me) · [Download this project](https://ascii.chukite.me/downloads/ascii-field-notes.zip)
 
 Examples below
 
