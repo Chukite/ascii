@@ -20,12 +20,6 @@ python -m http.server 8000
 
 Visit `http://localhost:8000`. No build step or package installation is needed.
 
-## Interact
-
-- Drag to explore; scroll or pinch to zoom.
-- Press **Space** to pause or resume, **R** to reset, and **S** to save a PNG.
-- The black hole scene also responds to the arrow keys for orbiting.
-
 ## License
 
 The gallery and included projects are released under the [MIT License](LICENSE). You may reuse, modify, and redistribute them under its terms.
