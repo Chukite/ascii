@@ -1,8 +1,9 @@
-# ASCII Art by Chukite
-
-Two interactive ASCII artworks: **Annulus** and **Singularity**.
+# ASCII Art
+Interactive ASCII artworks
 
 [Open the gallery](https://ascii.chukite.me) · [Download both projects](https://ascii.chukite.me/downloads/ascii-field-notes.zip)
+
+##Examples
 
 ## Annulus
 
