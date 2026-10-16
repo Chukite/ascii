@@ -8,7 +8,12 @@ Two interactive ASCII artworks: **Annulus** and **Singularity**.
 
 An annular eclipse over a moving sea.
 
+<details>
+<summary>Preview image</summary>
+
 [![Annulus — an ASCII eclipse above the ocean](assets/annulus.jpg)](https://ascii.chukite.me/annulus-cinematic/dist/index.html)
+
+</details>
 
 [Open Annulus](https://ascii.chukite.me/annulus-cinematic/dist/index.html) · [Download project](https://ascii.chukite.me/downloads/annulus-cinematic.zip)
 
@@ -16,7 +21,12 @@ An annular eclipse over a moving sea.
 
 A black hole and its gravitationally lensed accretion disk.
 
+<details>
+<summary>Preview image</summary>
+
 [![Singularity — an ASCII black hole with a glowing accretion disk](assets/singularity.jpg)](https://ascii.chukite.me/singularity-zoom-text/dist/index.html)
+
+</details>
 
 [Open Singularity](https://ascii.chukite.me/singularity-zoom-text/dist/index.html) · [Download project](https://ascii.chukite.me/downloads/singularity-zoom-text.zip)
 
